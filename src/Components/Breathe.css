@@ -1,0 +1,344 @@
+.breathe-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.breathe-prompt {
+  font-size: 16px;
+  padding: 0 16px;
+}
+#number {
+  display: flex;
+  width: 69px;
+  font-size: 14px;
+  font-family: "Questrial", sans-serif;
+  padding: 4px 16px;
+  border: none;
+  border-radius: 4px;
+  justify-content: center;
+  align-items: center;
+}
+.input-text {
+  text-align: center;
+  padding: 16px;
+}
+
+.breathe .frame-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.breathe .div-wrapper {
+  border-radius: 4px;
+  padding: 0px 16px;
+  position: absolute;
+  width: 50px;
+}
+
+.breathe .text-wrapper-2 {
+  border-color: transparent;
+  text-align: center;
+}
+
+.breathe .text-wrapper-3 {
+  font-size: 16px;
+  font-weight: 400;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+  top: 30px
+}
+.breathe .cancel {
+  height: 20px;
+  min-width: 20px;
+  position: relative;
+}
+
+.start-button {
+  display: inline-flex;
+  padding: 8px 16px;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  font-family: "Questrial", sans-serif;
+  border-radius: 8px;
+  border: 1px solid #f2f2f2;
+  background-color: #9fb6bf;
+  cursor: pointer;
+}
+.start-button:hover {
+  color: #f2f2f2;
+  background-color: #567373;
+}
+.start-button:active {
+  color: #243340;
+  background-color: #9fb6bf;
+  transform: translateY(1px);
+}
+
+
+
+/* breathe2.CSS ->->->->->->->->->->->->->->->->->->->->->->->->->->->->->*/
+
+
+.breath2 {
+  background-color: #243340;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-start;
+ 
+ 
+  height: 280px;
+  width: 280px;
+  z-index: 10;
+  position: absolute;
+
+  overflow-x: visible;
+}
+
+.breath2 .div {
+  background-color: #243340;
+  border: 1px none;
+ 
+  height: 282px;
+  bottom: 45px;
+  right: 0px;
+  overflow-x: hidden;
+  position: relative;
+  width: 280px;
+}
+
+
+.breath2 .frame2 {
+  background-color: #243340;
+  align-items: flex-start;
+  display: flex;
+  gap: 195px;
+  left: 12px;
+  position: absolute;
+  top:13px;
+  width: fit-content;
+}
+
+.breath2 .Noura {
+  font-family: 'Cinzel Decorative', cursive;
+	font-size: 14px;
+	color: #f2f2f2;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  width: fit-content;
+  font-family: 'Cinzel Decorative', cursive;
+	font-size: 14px;
+	color: #f2f2f2;
+}
+
+.breath2 .cancel {
+  height: 20px;
+  min-width: 20px;
+  right: 15px;
+  position: relative;
+  top: 2px;
+}
+
+.breath2 .timer-breathe2 {
+  color: #ffffff;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  left: 110px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 49px;
+  white-space: nowrap;
+}
+
+.breath2 .breathe-msg{
+  color: #ffffff;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  left: 110px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 250px;
+  white-space: nowrap;
+  text-align: center;
+}
+
+.breath2 .overlap-group {
+  background-color: #d9d9d9;
+  border-radius: 74.5px;
+  height: 149px;
+  left:60px;
+  position: absolute;
+  top: 86px;
+  width: 149px;
+}
+
+.breath2 .ellipse {
+  background-color: #c2c2c2;
+  border-radius: 35.5px;
+  height: 71px;
+  left: 39px;
+  position: absolute;
+  top: 39px;
+  width: 71px;
+}
+
+.breath2 .ellipse-2 {
+  background-color: #ffffff;
+  border-radius: 5.5px;
+  height: 11px;
+  left: 69px;
+  position: relative;
+  top: 69px;
+  width: 11px;
+}
+
+@keyframes breatheAnimation {
+  0% {
+    transform: scale(1);
+  }
+  38% {
+    transform: scale(1.5);
+  }
+  70% {
+    transform: scale(1.5);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.ellipse.animate {
+  animation: breatheAnimation 10s linear infinite;
+}
+
+
+
+/* breathe3 ->->->->-->->->->->->->->->->->->->->->->->->->->->->->->->*/
+
+.breathe3 {
+  background-color: #243340;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-start;
+ 
+ 
+  height: 280px;
+  width: 280px;
+  z-index: 10;
+  position: absolute;
+
+  overflow-x: visible;
+}
+
+.breathe3 .div {
+  background-color: #243340;
+  border: 1px none;
+ 
+  height: 282px;
+  bottom: 45px;
+  right: 0px;
+  overflow-x: hidden;
+  position: relative;
+  width: 280px;
+}
+
+.breathe3 .frame3 {
+  background-color: #243340;
+  align-items: flex-start;
+  display: flex;
+  gap: 195px;
+  left: 12px;
+  position: absolute;
+  top:13px;
+  width: fit-content;
+}
+
+.breathe3 .Noura {
+  font-family: 'Cinzel Decorative', cursive;
+	font-size: 14px;
+	color: #f2f2f2;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  width: fit-content;
+  font-family: 'Cinzel Decorative', cursive;
+	font-size: 14px;
+	color: #f2f2f2;
+}
+
+.breathe3 .cancel {
+  height: 20px;
+  min-width: 20px;
+  right: 12px;
+  position: relative;
+}
+
+.breathe3 .p {
+  color: #ffffff;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  left: 63px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 49px;
+  white-space: nowrap;
+}
+
+.breathe3 .div-wrapper {
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 8px;
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  left: 116px;
+  padding: 8px 16px;
+  position: absolute;
+  top: 237px;
+  width: fit-content;
+}
+
+.breathe3 .another-session {
+  color: #222222;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  width: fit-content;
+}
+
+.another-session:hover {
+	background: transparent;
+	cursor: pointer;
+}
+.another-session:active {
+	transform: translateY(1px);
+}
+
+.breathe3 .temp-preferences {
+  height: 100px;
+  left: 90px;
+  position: absolute;
+  top: 93px;
+  width: 100px;
+}
+

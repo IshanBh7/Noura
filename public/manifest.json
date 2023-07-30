@@ -1,0 +1,11 @@
+{
+  "name": "Noura",
+  "version": "1.0.0",
+  "description": "Healthy Habit Developer",
+  "manifest_version": 3,
+  "author": "Team Noura",
+  "action": {
+    "default_popup": "index.html",
+    "default_title": "Noura"
+  }
+}
